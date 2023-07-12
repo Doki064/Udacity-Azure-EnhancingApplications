@@ -18,7 +18,7 @@ redis-cli ping
 src/redis-server
 # Install dependencies - necessary Python packages - redis, opencensus, opencensus-ext-azure, opencensus-ext-flask, flask
 cd ..
-pip3 install -r requirements.txt
+python3.7 -m pip3 install -r requirements.txt
 # Run the app from the Flask application directory
 cd azure-vote/
-python3 main.py
+python3.7 main.py
