@@ -6,7 +6,7 @@ sudo apt update
 sudo apt install -y python3.7
 python3 --version
 # Install pip
-sudo -H pip3 install --upgrade pip
+python3.7 -m pip install --upgrade pip
 # Install and start Redis server. Refer https://redis.io/download for help.
 wget https://download.redis.io/releases/redis-6.2.4.tar.gz
 tar -xzf redis-6.2.4.tar.gz
@@ -18,7 +18,7 @@ redis-cli ping
 src/redis-server
 # Install dependencies - necessary Python packages - redis, opencensus, opencensus-ext-azure, opencensus-ext-flask, flask
 cd ..
-python3.7 -m pip3 install -r requirements.txt
+python3.7 -m pip install -r requirements.txt
 # Run the app from the Flask application directory
 cd azure-vote/
 python3.7 main.py
