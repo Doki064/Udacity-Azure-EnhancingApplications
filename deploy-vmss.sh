@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Make sure, you aer in the master branch
-git checkout Deploy_to_VMSS
 # Update sudo
 sudo apt update
 # Install Python 3.7
