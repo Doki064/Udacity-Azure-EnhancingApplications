@@ -3,7 +3,7 @@
 # Update sudo
 sudo apt update
 # Install Python 3.7
-sudo apt install python3.7
+sudo apt install -y python3.7
 python3 --version
 # Install pip
 sudo -H pip3 install --upgrade pip
