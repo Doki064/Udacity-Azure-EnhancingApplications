@@ -25,4 +25,4 @@ cd ..
 pip3 install -r requirements.txt
 # Run the app from the Flask application directory
 cd azure-vote/
-python3.7 main.py
+python3 main.py
