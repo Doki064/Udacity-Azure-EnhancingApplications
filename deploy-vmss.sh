@@ -1,7 +1,5 @@
 #!/bin/bash
 
-git clone https://github.com/Doki064/Udacity-Azure-EnhancingApplications.git
-cd Udacity-Azure-EnhancingApplications
 # Make sure, you aer in the master branch
 git checkout Deploy_to_VMSS
 # Update sudo
